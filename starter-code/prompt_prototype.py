@@ -15,7 +15,6 @@ import sys
 from typing import Any
 # Standard Model Identifier
 GEMINI_MODEL = "gemini-2.5-flash"
-git add starter-code/prompt_prototype.py
 
 # ===========================================================================
 # 🛡️ Operational Boundaries to Enforce via System Prompt:
