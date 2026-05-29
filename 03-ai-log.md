@@ -1,0 +1,5 @@
+Tôi sử dụng AI như một trợ lý đồng hành trong bài lab này để brainstorm các pain point vận hành cho VinBus, mô tả các quy trình hiện tại và tương lai, và điền nội dung cho Phase 2, Phase 3, Phase 5. AI giúp tôi nhanh chóng tạo bảng bài toán, viết thảo các thẻ bài toán, và gợi ý các metric định lượng để đánh giá hiệu quả.
+
+AI sai ở một điểm: có lúc AI đề xuất kịch bản chi phí và ROI quá lạc quan, vì dựa trên giả định doanh thu quá cao và không rõ nguồn dữ liệu. Ngoài ra, AI từng đưa ra một số bước rule-based quá phức tạp cho việc xử lý sự cố, trong khi thực tế chỉ cần một quy tắc đơn giản và quy trình gọi điện có sẵn.
+
+Để sửa, tôi điều chỉnh prompt theo hướng cụ thể hơn: yêu cầu nêu rõ giả định, giải thích công thức, và giới hạn mức độ ước lượng (chỉ đưa ra khoảng giá trị, không được khẳng định như số liệu chính thức). Tôi cũng bổ sung ràng buộc HITL và fallback, yêu cầu giải pháp ưu tiên rule-based đơn giản trước, và chỉ dùng AI/ML nếu rules không đủ. Sau khi sửa prompt, kết quả phù hợp hơn với thực tế và dễ kiểm chứng.
